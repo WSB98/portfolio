@@ -262,7 +262,7 @@ div::-webkit-scrollbar-thumb:hover {
     font-size: 52px;
     color:var(--background);
     text-align: center;
-    margin-left: calc(50% - 225px);
+    margin-left: calc(50% - 275px);
   }
   a {
     scroll-behavior: smooth;
@@ -540,7 +540,7 @@ div::-webkit-scrollbar-thumb:hover {
       background-size: 100%;
     }
     .profileHeader{
-      left:2.5%;
+      left:calc(50% - 125px);
     }
     .overlayGraphic2{
       width: 180px;
