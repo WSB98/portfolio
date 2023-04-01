@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Source+Sans+Pro&display=swap');
+
 :root{
     --cream: #e8e0d6;
     --matteBlack: #222222;
@@ -32,6 +34,45 @@ body {
 }
 .hidden_column{
     display: none;
+  }
+  .overlayGraphic{
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    z-index: -5;
+  }
+  .overlayGraphic2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 10px;
+    top: 350px;
+    z-index: -5;
+  }
+  .overlayGraphic3{
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    left: 10px;
+    top: 600px;
+    z-index: -5;
+  }
+  .overlayText{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    font-size: larger;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .overlayTextContent{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    font-size: large;
+    top: 255px;
+    font-family: 'Source Sans Pro', sans-serif;
   }
 li a{
   scroll-behavior: smooth;
@@ -390,7 +431,7 @@ div::-webkit-scrollbar-thumb:hover {
   width: 42px;
   fill: var(--foreground);
   right: 4px;
-  top: 24px;
+  top: 32px;
   position: absolute;
   cursor: pointer;
 }
@@ -425,6 +466,39 @@ div::-webkit-scrollbar-thumb:hover {
       background-size:105%;
       background-image: url('../img/gvaMobileLogin.PNG');
       background-position: -5px 15px;
+    }
+    .overlayText{
+      width: 45%;
+      position: absolute;
+      left: 48%;
+      font-size: large;
+    } 
+    .overlayTextContent{
+      top: 280px;
+    } 
+    .overlayGraphic{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 10px;
+      top: 20px;
+      z-index: -5;
+    }
+    .overlayGraphic2{
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      right: -50px;
+      top: 520px;
+      z-index: -5;
+    }
+    .overlayGraphic3{
+      width: 265px;
+      height: 265px;
+      position: absolute;
+      left: 10px;
+      top: 700px;
+      z-index: -5;
     }
   }
 
