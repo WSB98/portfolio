@@ -40,7 +40,7 @@ body {
     height: 265px;
     position: absolute;
     left: 10px;
-    top: 25px;
+    top: 35px;
     z-index: -5;
   }
   .overlayGraphic2{
@@ -65,14 +65,32 @@ body {
     left: 25%;
     font-size: larger;
     font-family: 'Source Sans Pro', sans-serif;
+    top: 100px;
   }
   .overlayTextContent{
-    width: 80%;
+    width: 70%;
     position: absolute;
     left: 10%;
     font-size: large;
-    top: 255px;
+    top: 285px;
     font-family: 'Source Sans Pro', sans-serif;
+  }
+  .overlayTextContent2{
+    width: 60%;
+    position: absolute;
+    left:10%;
+    font-size: large;
+    top: 445px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .overlayTextContent3{
+    width: 55%;
+    position: absolute;
+    left: 350px;
+    font-size: large;
+    top: 650px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 20px;
   }
 li a{
   scroll-behavior: smooth;
@@ -432,7 +450,7 @@ div::-webkit-scrollbar-thumb:hover {
   fill: var(--foreground);
   right: 4px;
   top: 32px;
-  position: absolute;
+  position:absolute;
   cursor: pointer;
 }
   /* header sizing for carousel */
@@ -445,6 +463,10 @@ div::-webkit-scrollbar-thumb:hover {
   
   }
   @media(max-width:1025px) {
+    .overlayTextContent3{
+      top: 925px;
+      left: calc(8% + 180px);
+    }
     .carouselBackground{
       overflow: hidden;
       background-size:103%;
@@ -472,32 +494,36 @@ div::-webkit-scrollbar-thumb:hover {
       position: absolute;
       left: 48%;
       font-size: large;
+      top: 60px;
     } 
     .overlayTextContent{
-      top: 280px;
+      top: 290px;
     } 
     .overlayGraphic{
       width: 200px;
       height: 200px;
       position: absolute;
       left: 10px;
-      top: 20px;
+      top: 35px;
       z-index: -5;
     }
+    .overlayTextContent2{
+      top: 700px;
+    }
     .overlayGraphic2{
-      width: 250px;
-      height: 250px;
+      width: 210px;
+      height: 210px;
       position: absolute;
-      right: -50px;
-      top: 520px;
+      right:-25px;
+      top: 460px;
       z-index: -5;
     }
     .overlayGraphic3{
-      width: 265px;
-      height: 265px;
+      width: 225px;
+      height: 225px;
       position: absolute;
-      left: 10px;
-      top: 700px;
+      left: -8%;
+      top: 950px;
       z-index: -5;
     }
   }
@@ -515,5 +541,25 @@ div::-webkit-scrollbar-thumb:hover {
     }
     .profileHeader{
       left:2.5%;
+    }
+    .overlayGraphic2{
+      width: 180px;
+      height: 180px;
+      position: absolute;
+      right: 5px;
+      top: 545px;
+      z-index: -5;
+    }
+    .overlayGraphic3{
+      width: 190px;
+      height: 190px;
+      position: absolute;
+      left: -15%;
+      top: 1060px;
+      z-index: -5;
+    }
+    .overlayTextContent3{
+      top: 1000px;
+      left: 160px;
     }
   }
