@@ -22,6 +22,11 @@ body {
     overflow-x: hidden;
     width: 100vw;
 }
+html, body{
+  left: -10px;
+  overflow-x: hidden;
+  position: relative;
+}
 .IBM-monospace{
     font-family: 'IBM Plex Mono', monospace;
  }
@@ -402,7 +407,7 @@ div::-webkit-scrollbar-thumb:hover {
 
   @keyframes animate {
     0% {
-      transform: translateY(100vh) scale(0);
+      transform: translateY(100vh) scale(0.15);
     }
     100% {
       transform: translateY(-10vh) scale(1);
