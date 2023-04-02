@@ -455,7 +455,7 @@ div::-webkit-scrollbar-thumb:hover {
   fill: var(--foreground);
   right: 4px;
   top: 57px;
-  position:absolute;
+  position:fixed;
   cursor: pointer;
 }
 
@@ -518,7 +518,7 @@ div::-webkit-scrollbar-thumb:hover {
       z-index: -5;
     }
     .overlayTextContent2{
-      top: 700px;
+      top: 675px;
     }
     .overlayGraphic2{
       width: 210px;
@@ -565,11 +565,11 @@ div::-webkit-scrollbar-thumb:hover {
       height: 190px;
       position: absolute;
       left: -58px;
-      top: 1085px;
+      top: 1125px;
       z-index: -5;
     }
     .overlayTextContent3{
-      top: 1025px;
+      top: 1100px;
       left: 137.5px;
     }
   }

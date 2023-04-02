@@ -54,7 +54,7 @@ carouselContainer.addEventListener('click', async(e) => {
              https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 
              175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"/></svg></a>
             
-            <h2 class="IBM-monospace sectionTitle">Green Valley Web System</h2>
+            <h2 class="IBM-monospace sectionTitle">Green Valley</h2>
             
             <img id="gvaGraphic" src="img/gvaDesktopGraphic.png" class="overlayGraphic">
 
@@ -89,18 +89,18 @@ carouselContainer.addEventListener('click', async(e) => {
             
         <h2 class="IBM-monospace sectionTitle">Project D.I.E.G.O.</h2>
         
-        <img id="gvaGraphic" src="img/diegoMobileGraphic.png" class="overlayGraphic">
+        <img id="gvaGraphic" src="img/diego_mobileConversation.png" class="overlayGraphic">
 
-        <p id="overlayText" class="overlayText">The Green Valley Web System is an end-to-end custom CRM specifically created for a business in Harrisonburg, VA.
+        <p id="overlayText" class="overlayText">Project DIEGO <code>(Dialect Interpretation Engine Generating Output)</code> is an open source website template that lets you speak directly the the OpenAI APIs.
         </p> 
 
-        <p id="overlayTextContent" class="overlayTextContent">While in my final year of college, I was part of a team that won a "Captsone Competition," in which a panel of judges, and the potential users of
-        the system, held a tournament-style compeititon to select the best web system. Upon winning, the clients offered the team an opportunity to implement the system. I was the only member who decided to move
-        forward with the opportunity.
+        <p id="overlayTextContent" class="overlayTextContent">Upon the release of Whisper (AI Audio Transcription) from OpenAI, my childhood dream of having a "Jarvis" from Marvel as my desk became
+        possible with a few API calls. So I set out to make a simple web-app that anyone could run on their computer and have their own at-desk AI assistant.
         </p>
 
-        <p id="overlayTextContent2" class="overlayTextContent2">The final web system uses a collection of AWS services to achieve the functionality requested by the clients. In short the site uses Elastic Beanstalk
-        for hosting, S3 for file storage, RDS for the SQL database, and CloudWatch for management and monitoring.
+        <p id="overlayTextContent2" class="overlayTextContent2">It is important to note that this is not like LLaMa / Alpaca and requires an internet connection due to the reuqests using <code>fetch()</code> methods.
+        First, DEIGO sends the audio recording to the Whisper API, then uses the transcription to show the user's message on screen and send a request to the GPT 3.5 Turbo API. The final response from GPT-3.5
+        is then used for DIEGO's response.
         </p>
 
         <p id="overlayTextContent3" class="overlayTextContent3">Green Valley has continued using the system and has servered thousands of customers through it, while reducing their usage of paper by over 80%.
@@ -120,7 +120,7 @@ carouselContainer.addEventListener('click', async(e) => {
         (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6
          9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"/></svg></a>
             
-        <h2 class="IBM-monospace sectionTitle">Summi: Text Summarizer</h2>
+        <h2 class="IBM-monospace sectionTitle">Summi</h2>
         
         <img id="gvaGraphic" src="img/summiDesktop.png" class="overlayGraphic">
 

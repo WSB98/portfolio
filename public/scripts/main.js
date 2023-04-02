@@ -36,7 +36,7 @@ window.addEventListener('load', async (e) => {
       
       swapper.style.width = '150px';
       palette.style.display = 'none';
-      colorSelectors.style.display = 'flex'
+      colorSelectors.style.display = 'inline-flex'
       
   });
 
