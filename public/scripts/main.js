@@ -52,11 +52,13 @@ window.addEventListener('load', async (e) => {
 
   color1.addEventListener('change', async (e) => {
       await localStorage.setItem('color1',color1.value)
-      document.documentElement.style.setProperty("--background", localStorage.getItem('color1'));
+      await document.documentElement.style.setProperty("--background", localStorage.getItem('color1'));
+      window.location.reload()
   });
   color2.addEventListener('change', async (e) => {
       await localStorage.setItem('color2',color2.value)
-      document.documentElement.style.setProperty("--foreground", localStorage.getItem('color2'));
+      await document.documentElement.style.setProperty("--foreground", localStorage.getItem('color2'));
+      window.location.reload()
   });
   flipper.addEventListener('click', async(e) => {
     await localStorage.setItem('color1',color2.value)
