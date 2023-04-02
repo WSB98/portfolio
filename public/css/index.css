@@ -458,6 +458,11 @@ div::-webkit-scrollbar-thumb:hover {
   position:absolute;
   cursor: pointer;
 }
+
+.headerLogo{
+  width: 69px;
+  height: 69px;
+}
   /* header sizing for carousel */
   @media(max-width:1200px) {
     .gsSection {
