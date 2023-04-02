@@ -20,12 +20,12 @@ body {
     color: var(--foreground);
     position: relative;
     overflow-x: hidden;
-    width: 100vw;
 }
 html, body{
   left: -10px;
   overflow-x: hidden;
   position: relative;
+  width: 103vw;
 }
 .IBM-monospace{
     font-family: 'IBM Plex Mono', monospace;
@@ -45,7 +45,7 @@ html, body{
     height: 265px;
     position: absolute;
     left: 10px;
-    top: 35px;
+    top: 50px;
     z-index: -5;
   }
   .overlayGraphic2{
@@ -317,7 +317,6 @@ div::-webkit-scrollbar-thumb:hover {
 
   /* slightly transparent fallback */
 .carousel-slide:hover {
-  z-index: 100;
   box-shadow: 0px 0px 18px 0px var(--foreground);
 }
 .carousel-slide:hover {
@@ -350,7 +349,7 @@ div::-webkit-scrollbar-thumb:hover {
     font-size: larger;
   }
   .mslSection{
-    background-image: url('../img/mslLandingPage_desktop.png');
+    background-image:url('../img/msl_landingPage_desktop_banner.PNG');
   }
   .diegoSection{
     background-image: url('../img/diegoApp.PNG');
@@ -401,6 +400,7 @@ div::-webkit-scrollbar-thumb:hover {
     margin-top: 0px;
     width: 102%;
     left: -1%;
+    padding-top: 12px;
     background-color: var(--background);
   }
   
@@ -454,7 +454,7 @@ div::-webkit-scrollbar-thumb:hover {
   width: 42px;
   fill: var(--foreground);
   right: 4px;
-  top: 32px;
+  top: 57px;
   position:absolute;
   cursor: pointer;
 }
@@ -495,21 +495,21 @@ div::-webkit-scrollbar-thumb:hover {
       background-position: -5px 15px;
     }
     .overlayText{
-      width: 45%;
+      width: 50%;
       position: absolute;
       left: 48%;
       font-size: large;
-      top: 60px;
+      top: 95px;
     } 
     .overlayTextContent{
-      top: 290px;
+      top: 355px;
     } 
     .overlayGraphic{
       width: 200px;
       height: 200px;
       position: absolute;
       left: 10px;
-      top: 35px;
+      top: 77px;
       z-index: -5;
     }
     .overlayTextContent2{
@@ -520,7 +520,7 @@ div::-webkit-scrollbar-thumb:hover {
       height: 210px;
       position: absolute;
       right:-25px;
-      top: 460px;
+      top: 510px;
       z-index: -5;
     }
     .overlayGraphic3{
@@ -528,7 +528,7 @@ div::-webkit-scrollbar-thumb:hover {
       height: 225px;
       position: absolute;
       left: -8%;
-      top: 950px;
+      top: 1000px;
       z-index: -5;
     }
   }
@@ -551,20 +551,20 @@ div::-webkit-scrollbar-thumb:hover {
       width: 180px;
       height: 180px;
       position: absolute;
-      right: 5px;
-      top: 545px;
+      right: -45px;
+      top: 570px;
       z-index: -5;
     }
     .overlayGraphic3{
       width: 190px;
       height: 190px;
       position: absolute;
-      left: -15%;
-      top: 1060px;
+      left: -58px;
+      top: 1085px;
       z-index: -5;
     }
     .overlayTextContent3{
-      top: 1000px;
-      left: 160px;
+      top: 1025px;
+      left: 137.5px;
     }
   }
