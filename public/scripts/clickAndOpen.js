@@ -94,7 +94,7 @@ carouselContainer.addEventListener('click', async(e) => {
         <p id="overlayText" class="overlayText">Project DIEGO <code>(Dialect Interpretation Engine Generating Output)</code> is an open source website template that lets you speak directly the the OpenAI APIs.
         </p> 
 
-        <p id="overlayTextContent" class="overlayTextContent">Upon the release of Whisper (AI Audio Transcription) from OpenAI, my childhood dream of having a "Jarvis" from Marvel as my desk became
+        <p id="overlayTextContent" class="overlayTextContent">Upon the release of Whisper (AI Audio Transcription) from OpenAI, my childhood dream of having a "Jarvis" from Marvel at my desk became
         possible with a few API calls. So I set out to make a simple web-app that anyone could run on their computer and have their own at-desk AI assistant.
         </p>
 
@@ -103,8 +103,10 @@ carouselContainer.addEventListener('click', async(e) => {
         is then used for DIEGO's response.
         </p>
 
-        <p id="overlayTextContent3" class="overlayTextContent3">Green Valley has continued using the system and has servered thousands of customers through it, while reducing their usage of paper by over 80%.
-        I continue to work with Green Valley every few months to apply new features and keep their AWS services up to date. 
+        <p id="overlayTextContent3" class="overlayTextContent3">DIEGO has continued to recieve updates as of the most recent update of this page. Other developers have also been using the code to integrate
+         an AI-assistant into their own web-project. The main advantages DIEGO offers as a template is in the integration of <code>localStorage()</code> where your chat history is saved to your
+         own device's browser, and the format for those logs is also saved, making it much easier to engineer prompts if the desired AI-assistant is not just ChatGPT.
+          You can find the GitHub repo <a href="https://github.com/WSB98/D.I.E.G.O.">here</a>. 
         </p>
         
         
