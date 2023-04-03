@@ -353,11 +353,11 @@ div::-webkit-scrollbar-thumb:hover {
   }
   .diegoSection{
     background-image: url('../img/diegoApp.PNG');
-    background-size: 100%;
+    background-size: 100% 130%;
   }
   .carouselBackground{
     overflow: hidden;
-    background-size:115%;
+    background-size:100% 120%;
   }
   
   .carousel-prev, .carousel-next {
@@ -416,17 +416,17 @@ div::-webkit-scrollbar-thumb:hover {
 
   .summiSection {
     overflow: hidden;
-    background-size:120%;
+    background-size:105% 160%;
     background-image: url('../img/summiDesktopLarger.PNG');
   }
   .gsSection {
     overflow: hidden;
-    background-size:105%;
+    background-size: 102.5% 110%;
     background-image: url('../img/GalacticSaloonDesktop.PNG');
   }
   .gvaSection{
     overflow: hidden;
-    background-size:120%;
+    background-size:115% 175%;
     background-image: url('../img/gvaLogin.PNG');
     background-position: -100px -125px;
   }
@@ -467,7 +467,7 @@ div::-webkit-scrollbar-thumb:hover {
   @media(max-width:1200px) {
     .gsSection {
       overflow: hidden;
-      background-size:100%;
+      background-size:100% 150%;
       background-image: url('../img/GSmobileLogin.PNG');
     }
   
@@ -484,18 +484,18 @@ div::-webkit-scrollbar-thumb:hover {
       background-image: url('../img/mslMobile.PNG');
     }
     .diegoSection{
-      background-size: 100%;
+      background-size: 100% 200%;
       background-image: url('../img/diegoMobile.PNG');
     }
     .summiSection {
       overflow: hidden;
-      background-size:102%;
+      background-size:102% 175%;
       background-position: -2px 0px;
       background-image: url('../img/summiExtension.PNG');
     }
     .gvaSection{
       overflow: hidden;
-      background-size:105%;
+      background-size:105% 125%;
       background-image: url('../img/gvaMobileLogin.PNG');
       background-position: -5px 15px;
     }

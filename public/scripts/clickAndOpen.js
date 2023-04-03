@@ -106,7 +106,7 @@ carouselContainer.addEventListener('click', async(e) => {
         <p id="overlayTextContent3" class="overlayTextContent3">DIEGO has continued to recieve updates as of the most recent update of this page. Other developers have also been using the code to integrate
          an AI-assistant into their own web-project. The main advantages DIEGO offers as a template is in the integration of <code>localStorage()</code> where your chat history is saved to your
          own device's browser, and the format for those logs is also saved, making it much easier to engineer prompts if the desired AI-assistant is not just ChatGPT.
-          You can find the GitHub repo <a href="https://github.com/WSB98/D.I.E.G.O.">here</a>. 
+          You can find the GitHub repo <a target="_blank" href="https://github.com/WSB98/D.I.E.G.O.">here</a>. 
         </p>
         
         
@@ -159,20 +159,22 @@ carouselContainer.addEventListener('click', async(e) => {
         
         <img id="gvaGraphic" src="img/GSdashboardMobile.png" class="overlayGraphic">
 
-        <p id="overlayText" class="overlayText">The Green Valley Web System is an end-to-end custom CRM specifically created for a business in Harrisonburg, VA.
+        <p id="overlayText" class="overlayText">The Galactic Saloon is an NFT-based project that aims to provide holders with a true web3.0 experience. All art and development are done by myself.
         </p> 
 
-        <p id="overlayTextContent" class="overlayTextContent">While in my final year of college, I was part of a team that won a "Captsone Competition," in which a panel of judges, and the potential users of
-        the system, held a tournament-style compeititon to select the best web system. Upon winning, the clients offered the team an opportunity to implement the system. I was the only member who decided to move
-        forward with the opportunity.
+        <p id="overlayTextContent" class="overlayTextContent">Throughout my research, the <a target="_blank" href="https://internetcomputer.org">Internet Computer</a> stood out as a unique platform to build on that shed light on the better parts
+        of crypto, which is why I chose to build the Galactic Saloon on it. From the "reverse gas model" to competitive pricing for website hosting, everyhting aligned for what I wanted the Galactic Saloon to be.
         </p>
 
-        <p id="overlayTextContent2" class="overlayTextContent2">The final web system uses a collection of AWS services to achieve the functionality requested by the clients. In short the site uses Elastic Beanstalk
-        for hosting, S3 for file storage, RDS for the SQL database, and CloudWatch for management and monitoring.
+        <p id="overlayTextContent2" class="overlayTextContent2">After almost a year as of writing, the Galactic Saloon has gone from 0 members to over 2,000, with 25 unique holders of the NFT. The current <a target="_blank" href="https://galacticsaloon.com">site</a> that
+        NFT holders gain access to currently gives holders access to a version of DIEGO called CowboyGPT that is more focused on coding questions and is soon to push an update that gives users access to prompt engineering tools, all without their own OpenAI account.
         </p>
 
-        <p id="overlayTextContent3" class="overlayTextContent3">Green Valley has continued using the system and has servered thousands of customers through it, while reducing their usage of paper by over 80%.
-        I continue to work with Green Valley every few months to apply new features and keep their AWS services up to date. 
+        <p id="overlayTextContent3" class="overlayTextContent3">The future plans are to make a fully functional DAO where holders have access to:  
+        submitting proposals to the NNS on the Internet Computer, voting on proposals using a shared Neuron, NFT minting tool, token swapping tool, discussion board, and 3d replicas of 2d NFTs as avatars in ICP Metaverse gaems.
+        However, I feel required to say that this is mostly a fun side project for me, and I have no set in stone plans for it as much as I am learning 
+        more about blockchain technology by working on it. 
+
         </p>
         
         
