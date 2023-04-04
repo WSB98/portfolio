@@ -22,10 +22,10 @@ body {
     overflow-x: hidden;
 }
 html, body{
-  left: -10px;
+  margin: 0;
   overflow-x: hidden;
   position: relative;
-  width: 103vw;
+  width: 100vw;
 }
 .IBM-monospace{
     font-family: 'IBM Plex Mono', monospace;
@@ -199,10 +199,12 @@ div::-webkit-scrollbar-thumb:hover {
     fill: var(--background);
     padding: 2px;
   }
+ 
 .svgRefresh {
     fill: var(--background);
-    height: 1rem;
-    width: 1rem;
+    stroke: var(--background);
+    height: 1.5rem;
+    width: 1.5rem;
     margin: 0.2rem;
     transition: all ease 0.2s;
   }
@@ -264,10 +266,11 @@ div::-webkit-scrollbar-thumb:hover {
   .profileHeader{
     position: absolute;
     top: 150px;
+    width: 50%;
     font-size: 52px;
     color:var(--background);
     text-align: center;
-    margin-left: calc(50% - 275px);
+    left: calc(50% - 25%);
   }
   a {
     scroll-behavior: smooth;
@@ -548,9 +551,6 @@ div::-webkit-scrollbar-thumb:hover {
     .diegoSection{
       background-image: url('../img/diegoMobile.PNG');
       background-size: 100%;
-    }
-    .profileHeader{
-      left:calc(50% - 125px);
     }
     .overlayGraphic2{
       width: 180px;
