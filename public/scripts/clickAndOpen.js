@@ -124,28 +124,28 @@ carouselContainer.addEventListener('click', async(e) => {
             
         <h2 class="IBM-monospace sectionTitle">Summi</h2>
         
-        <img id="gvaGraphic" src="img/summiDesktop.PNG" class="overlayGraphic">
+        <img id="gvaGraphic" src="img/summiLoginGraphic.png" class="overlayGraphic">
 
-        <p id="overlayText" class="overlayText">The Green Valley Web System is an end-to-end custom CRM specifically created for a business in Harrisonburg, VA.
+        <p id="overlayText" class="overlayText">Summi is a text summarization tool that uses OpenAI APIs to reduce the amount of time spent reading by ~70% on average. 
         </p> 
 
-        <p id="overlayTextContent" class="overlayTextContent">While in my final year of college, I was part of a team that won a "Captsone Competition," in which a panel of judges, and the potential users of
-        the system, held a tournament-style compeititon to select the best web system. Upon winning, the clients offered the team an opportunity to implement the system. I was the only member who decided to move
-        forward with the opportunity.
+        <p id="overlayTextContent" class="overlayTextContent">As my first project using APIs from OpenAI, I wanted to make something that was useful, and accessible. Chrome Extensions stood out to me as the perfect
+        medium for this project because of the simplicity of using them for the end-user. 
         </p>
 
-        <p id="overlayTextContent2" class="overlayTextContent2">The final web system uses a collection of AWS services to achieve the functionality requested by the clients. In short the site uses Elastic Beanstalk
-        for hosting, S3 for file storage, RDS for the SQL database, and CloudWatch for management and monitoring.
+        <p id="overlayTextContent2" class="overlayTextContent2">Summi works by letting the user highlight the text they want to process, right clicking, then clicking the "summi" option on the menu. 
+        The user's message will pop-in iMessage-style and after a few seconds, a response will pop-in as well. The type of response recieved is dependent on the mode selected at the top, Normal, Shorter, Code, and Explain.
         </p>
 
-        <p id="overlayTextContent3" class="overlayTextContent3">Green Valley has continued using the system and has servered thousands of customers through it, while reducing their usage of paper by over 80%.
-        I continue to work with Green Valley every few months to apply new features and keep their AWS services up to date. 
+        <p id="overlayTextContent3" class="overlayTextContent3">Summi is mostly a finished project that will likely remain in closed beta indefinitely. Due to how many other products similar to it already exist, 
+        I don't see a point in scaling it up to public consumption. There are many testers (and friends) who still use Summi when they're short on time and I plan to keep the AWS services for it running as long as
+        people use it.
         </p>
         
         
         <img id="gvaGraphic2" src="img/summiAppGraphic.png" class="overlayGraphic2">
         
-        <img id="gvaGraphic3" src="img/summiLoginGraphic.png" class="overlayGraphic3">
+        <img id="gvaGraphic3" src="img/summiDesktop.PNG" class="overlayGraphic3">
         `
     }
     if(clickedID === '5'){
