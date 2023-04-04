@@ -506,6 +506,63 @@ div::-webkit-scrollbar-thumb:hover {
   flex-basis: 50%;
 }
 
+/* Center the form horizontally and vertically */
+.form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+}
+
+/* Style the form elements */
+.label {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.cowboyLean{
+  position: absolute;
+  left: 0px;
+  fill: var(--foreground);
+}
+
+.input, .textarea {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--foreground);
+  outline: none;
+  width: 70%;
+  max-width: 70rem;
+  margin-bottom: 1rem;
+  background-color: #00000000;
+  font-size: large;
+  color: var(--foreground);
+}
+
+.textarea {
+  height: 10rem;
+}
+
+input[type="submit"] {
+  background-color: var(--background);
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+
+
+
+
   /* header sizing for carousel */
   @media(max-width:1200px) {
     .gsSection {
@@ -516,6 +573,17 @@ div::-webkit-scrollbar-thumb:hover {
   
   }
   @media(max-width:1025px) {
+
+    .form {
+      left: 14.5%;
+    }
+    
+    .input, .textarea {
+      max-width: none;
+      width: 55%;
+    }
+
+    
     .overlayTextContent3{
       top: 925px;
       left: calc(8% + 180px);
