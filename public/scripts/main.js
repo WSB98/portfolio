@@ -124,9 +124,14 @@ const carouselContainer = document.querySelector('.carousel-container');
 const carouselSlides = document.querySelectorAll('.carousel-slide');
 const carouselPrev = document.querySelector('.carousel-prev')
 const carouselNext = document.querySelector('.carousel-next')
-
 let currentPosition = 0;
-const slideWidth = carouselSlides[0].offsetWidth + 500;
+var slideWidth = carouselSlides[0].offsetWidth + 500;
+
+// move and adjust when screen is resized
+window.addEventListener('resize', async(e) => {
+  slideWidth = carouselSlides[0].offsetWidth + 500;
+  moveToSlide(currentPosition);
+});
 
 function moveToSlide(index) {
   carouselContainer.style.transform = `translateX(calc(-${index * slideWidth}px))`;

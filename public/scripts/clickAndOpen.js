@@ -124,7 +124,7 @@ carouselContainer.addEventListener('click', async(e) => {
             
         <h2 class="IBM-monospace sectionTitle">Summi</h2>
         
-        <img id="gvaGraphic" src="img/summiDesktop.png" class="overlayGraphic">
+        <img id="gvaGraphic" src="img/summiDesktop.PNG" class="overlayGraphic">
 
         <p id="overlayText" class="overlayText">The Green Valley Web System is an end-to-end custom CRM specifically created for a business in Harrisonburg, VA.
         </p> 
@@ -143,9 +143,9 @@ carouselContainer.addEventListener('click', async(e) => {
         </p>
         
         
-        <img id="gvaGraphic2" src="img/gvaMobileLoginGraphic.png" class="overlayGraphic2">
+        <img id="gvaGraphic2" src="img/summiAppGraphic.png" class="overlayGraphic2">
         
-        <img id="gvaGraphic3" src="img/gvaDesktopGraphic.png" class="overlayGraphic3">
+        <img id="gvaGraphic3" src="img/summiLoginGraphic.png" class="overlayGraphic3">
         `
     }
     if(clickedID === '5'){

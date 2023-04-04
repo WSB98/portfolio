@@ -565,11 +565,17 @@ div::-webkit-scrollbar-thumb:hover {
       height: 190px;
       position: absolute;
       left: -58px;
-      top: 1125px;
+      top: 1250px;
       z-index: -5;
     }
+    .overlayTextContent{
+      top: 350px;
+    }
+    .overlayTextContent2{
+      top: 755px;
+    }
     .overlayTextContent3{
-      top: 1100px;
+      top: 1185px;
       left: 137.5px;
     }
   }
