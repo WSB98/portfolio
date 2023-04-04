@@ -75,7 +75,7 @@
       
       transition: 0.3s ease;
       scroll-behavior: smooth;
-    
+    cursor: pointer;
     }
 
     .menu li a:hover {
@@ -115,7 +115,7 @@
         
         top: 30px;
 
-        transform: translate(0px,-600px);
+        transform: translate(-50px,-600px);
         transition: all ease 0.2s;
     
     }
@@ -144,8 +144,8 @@
     
 .services:hover .dropdown {
     display: block;
-    transform: translate(0px,0px);
-    transition: all ease 0.3s;
+    transform: translate(-50px,0px);
+    transition: all ease 0.2s;
 }
 
 

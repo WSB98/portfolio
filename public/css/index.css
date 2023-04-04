@@ -26,6 +26,7 @@ html, body{
   overflow-x: hidden;
   position: relative;
   width: 100vw;
+  scroll-behavior: smooth;
 }
 .IBM-monospace{
     font-family: 'IBM Plex Mono', monospace;

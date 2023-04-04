@@ -159,3 +159,13 @@ function moveLeft() {
 document.querySelector('.carousel-prev').addEventListener('click', moveLeft);
 document.querySelector('.carousel-next').addEventListener('click', moveRight);
 
+
+//scrolling 
+function scrollToSection(sectionId) {
+  const offset = 135; // set the offset value to 100px less than the target section
+  const section = document.getElementById(sectionId);
+  const top = section.offsetTop - offset;
+  window.scrollTo({top, behavior: 'smooth'});
+}
+
+
