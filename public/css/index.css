@@ -39,8 +39,9 @@ html, body{
 }
 .neumorphicOut {
   box-shadow: .15rem .15rem .3rem grey, 
-  -.1rem -.1rem .25rem rgb(255, 255, 235);
+  -.1rem -.1rem .25rem rgb(255, 255, 235) !important;
   transition:all ease 0.2s;
+  -webkit-appearance: none;
 }
 .bio{
   padding: 20px;
