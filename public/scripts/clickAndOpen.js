@@ -183,6 +183,7 @@ carouselContainer.addEventListener('click', async(e) => {
         <img id="gvaGraphic3" src="img/GS_swap_desktop.png" class="overlayGraphic3">
         `
     }
+  
     
     if(!e.target.contains(nextButton) && !e.target.contains(prevButton) && opened === false){
         overlay.style.opacity = '100'

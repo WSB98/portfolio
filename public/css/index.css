@@ -28,6 +28,24 @@ html, body{
   width: 100vw;
   scroll-behavior: smooth;
 }
+.redbubbleContainer{
+  display: flex;
+  justify-content: space-around;
+  min-width: 1000px;
+  height: auto;
+}
+.redbubble-container-container{
+  overflow-x: scroll;
+}
+.neumorphicOut {
+  box-shadow: .15rem .15rem .3rem grey, 
+  -.1rem -.1rem .25rem rgb(255, 255, 235);
+  transition:all ease 0.2s;
+}
+.bio{
+  padding: 20px;
+  border-radius: 5px;
+}
 .IBM-monospace{
     font-family: 'IBM Plex Mono', monospace;
  }
@@ -532,7 +550,7 @@ div::-webkit-scrollbar-thumb:hover {
 .input, .textarea {
   padding: 0.5rem;
   border-radius: 0.25rem;
-  border: 1px solid var(--foreground);
+  border: 1px solid #00000000;
   outline: none;
   width: 70%;
   max-width: 70rem;
@@ -541,7 +559,26 @@ div::-webkit-scrollbar-thumb:hover {
   font-size: large;
   color: var(--foreground);
 }
-
+.input:focus{
+  box-shadow: 0px 0px 6px 0px var(--foreground);
+  background-color: var(--foreground);
+  color: var(--background);
+  transform: scale(1.025);
+}
+/* Style for input fields that have been autofilled */
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px var(--foreground) inset;
+}
+.textarea:focus{
+  box-shadow: 0px 0px 6px 0px var(--foreground);
+  background-color: var(--foreground);
+  color: var(--background);
+  transform: scale(1.025);
+}
 .textarea {
   height: 10rem;
 }
@@ -549,7 +586,6 @@ div::-webkit-scrollbar-thumb:hover {
 input[type="submit"] {
   background-color: var(--background);
   color: var(--foreground);
-  border: 1px solid var(--foreground);
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   cursor: pointer;

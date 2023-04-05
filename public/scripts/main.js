@@ -167,5 +167,3 @@ function scrollToSection(sectionId) {
   const top = section.offsetTop - offset;
   window.scrollTo({top, behavior: 'smooth'});
 }
-
-
